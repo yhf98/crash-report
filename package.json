@@ -1,0 +1,16 @@
+{
+  "name": "crash-report",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "qiao-z": "^0.7.9",
+    "qiao-z-upload": "^1.0.7"
+  }
+}
