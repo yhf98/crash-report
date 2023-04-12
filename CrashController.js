@@ -28,7 +28,7 @@ module.exports = (app) => {
       const fileInfo = req.body.files.upload_file_minidump;
       const tmpPath = fileInfo.filepath;
       console.info("tmpPath: ", tmpPath);
-      const destPath = resolve(__dirname, fileInfo.originalFilename);
+      const destPath = resolve(__dirname, 'report', fileInfo.originalFilename);
       console.info("destPath: ", destPath);
       copyFileSync(tmpPath, destPath);
 
